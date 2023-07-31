@@ -1,0 +1,2 @@
+Bài 188: Giới thiệu về Context
+- Context sẻ chia sẽ 1 phương pháp để chia sẻ các giá trị giữa các components với nhau 

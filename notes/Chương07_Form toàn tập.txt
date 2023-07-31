@@ -1,0 +1,50 @@
+Bài 106: Giới thiệu chương 7
+Bài 107: Tìm hiểu Form cơ bản trong React phần 1
+Bài 108: Tìm hiểu Form cơ bản trong React phần 2
+Bài 109: Tìm hiểu Form cơ bản trong React phần 3
+Bài 110: Tìm hiểu Form cơ bản trong React phần 4
+Bài 111: Tìm hiểu Form cơ bản trong React phần 5
+Bài 112: Bài tập Movie Search App - Đăng ký API
+Bài 113: Bài tập Movie Search App - Fetching dữ liệu
+Bài 114: Bài tập Movie Search App - Styling giao diện
+Bài 115: Bài tập Movie Search App - Hiển thị dữ liệu
+Bài 116: Bài tập Movie Search App - Hiển thị dữ liệu tiếp theo
+Bài 117: Bài tập Movie Search App - Chức năng tìm kiếm
+Bài 118: Bài tập Movie Search App - Sử dụng kỹ thuật debounce
+Bài 119: Bài tập Movie Search App - Giải thích hook useDebounce
+Bài 120: Bài tập Movie Search App - Giới thiệu về loading skeleton
+Bài 121: Bài tập Movie Search App - Thêm loading skeleton
+Bài 122: Setup giao diện form cơ bản
+Bài 123: Cài đặt và sử dụng formik vào form
+Bài 124: Validation cơ bản với formik
+Bài 125: Validation cơ bản với formik tiếp theo
+Bài 126: Validation với thư viện Yup
+Bài 127: Tối ưu source code
+Bài 128: Bài tập SignUpForm - Phân tích và code giao diện
+Bài 129: Bài tập SignUpForm - Chia nhỏ và tái sử dụng components
+Bài 130: Bài tập SignUpForm - Tìm hiểu và sử dụng hook useField
+Bài 131: Bài tập SignUpForm - Tối ưu components và validtion
+Bài 132: Bài tập SignUpForm - Reset form và submitting
+Bài 133: Cài đặt thư viện React Hook Form
+Bài 134: Sử dụng React Hook Form cơ bản
+Bài 135: Validation cơ bản
+Bài 136: Sử dụng Yup cơ bản
+Bài 137: Các trạng thái trong React Hook Form p1
+- isSubmitting: form đang submit
+Bài 138: Các trạng thái trong React Hook Form p2
+- isValid: valid các trường có hợp lệ ko
+- isDirty: trả về 1 trường ta đã nhập vào
+- dirtyFields: trả về 1 object các trường ta đã nhập vào
+Bài 139: Tìm hiểu phương thức watch
+- watch: xem thử trường đó có thay đổi gì hay ko
+Bài 140: Tìm hiểu phương thức Reset
+- reset các trường trong form
+- resetField: reset 1 trường nào đó
+Bài 141: Tìm hiểu phương thức setValues và setFocus
+- setFocus: focus vào trường đó
+- setValues : set value cho trường nào đó
+Bài 142: Tìm hiểu Controller
+- Dùng để wrap coponent cho những controll list input
+Bài 143: Tìm hiểu useController
+Bài 143: Tìm hiểu control
+- Khi chia thành component thì phải dùng control

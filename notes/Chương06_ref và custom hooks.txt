@@ -1,0 +1,40 @@
+Bài 82: Giới thiệu chương 6
+- ref nó là 1 object và nó có 1 property đặc biệt là current
+- ref thường được dùng cho những cái truy xuất vào DOM, muốn làm những vấn đề về function, sử dụng ref để lưu 1 giá trị setTimeOut, setInterval,...
+Bài 83: Tìm hiểu về ref cơ bản
+- const inputRef, abcRef = useRef(initialValue)
+- Truy suất giá trị của ref -> ref.current
+- Update giá trị của ref -> ref.current = value
+- Khi ref thay đổi thì components sẽ ko re-render lại
+const countRef = useRef(0);
+  const handler = () => {
+    // truy suất giá trị của ref
+    console.log(countRef.current);
+    // update giá trị của ref
+    countRef.current = 10;
+  };
+Bài 84: Sự khác nhau giữa hook useRef và hook useState
+- Khi chúng ta State thì components sẽ re-render còn ref thì ko
+Bài 85: Bài tập đồng hồ bấm giờ đơn giản
+Bài 86: Bài tập Input Auto Focus
+- Trong quá trình components render ra ngoài thì ref sẽ k có giá trị(undefined) khi components mounted xong thì 
+ref mới có giá trị nên viết ref.current trong useEffect() hoặc trong function muốn xử lý
+Bài 87: Bài tập Textarea Resize phần 1
+Bài 88: Bài tập Textarea Resize phần 2
+Bài 89: Bài tập Dropdown phần 1
+Bài 90: Bài tập Dropdown phần 2
+Bài 91: Xử lý callback dependency trong useEffect với ref
+Bài 92: Custom hook là gì ?
+Bài 93: Viết custom hook useLinkNewTab phần 1 
+Bài 94: Viết custom hook useLinkNewTab phần 2
+Bài 95: Viết custom hook useHover phần 1
+Bài 96: Viết custom hook useHover phần 2
+Bài 97: Xử lý unmounted component với ref phần 1
+Bài 98: Xử lý unmounted component với ref phần 2
+Bài 99: Tối ưu bài tập HackerNewsAPI với custom hook phần 1
+Bài 100: Tối ưu bài tập HackerNewsAPI với custom hook phần 2
+Bài 101: Tối ưu bài tập HackerNewsAPI với custom hook phần 3
+Bài 102: Viết custom hook useClickOutSide
+Bài 103: Bài tập SidebarMenu phần 1
+Bài 104: Bài tập SidebarMenu phần 2
+Bài 105: Recap chương 6

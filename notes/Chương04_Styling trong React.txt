@@ -1,0 +1,62 @@
+Bài 39: Giới thiệu chương 4
+Bài 40: Cài đặt và sử dụng Sass cơ bản
+-  Câu lệnh cài:
++ cd my-app
++ npm install node-sass@4.14.1
++ npm start
+Bài 41: Tìm  hiểu  CSS  Module
+- Viết dưới dạng camelCase
+Bài 42: Cài đặt thư viện styled-components
+- Câu lệnh cài
++ npm install styled-components --save
++ cd my-app
++ npm start
+Bài 43: Phân tích giao diện Card component
+- Cài babel plugin
++ cd my-app
++ npm install --save-dev babel-plugin-styled-components
++ Từ folder my-app tạo 1 file .babelrc -> paste đoạn code vào sau đó tắt đi
+chạy -> npm start
+Bài 44: Sử dụng styled-components phần 1
+- Sử dụng bên ngoài funtional component
+- const variable = styled.tag(h1, h2, div, span, strong, a, ...)``
+- CSS-in-JS
+Bài 45: Sử dụng styled-components phần 2
+Bài 46: Sử dụng styled-components phần 3
+Bài 47: Tìm hiểu props trong styled-components
+Bài 48: Cách tạo Global styles trong styled-components
+Bài 49: Tìm hiểu một cách sử dụng styled-components khác
+Bài 50: So sánh 2 cách dùng của styled-components
+Bài 51: Tìm hiểu Theme trong styled-components
+Bài 52: Giới thiệu và cài đặt TailwindCSS
+- Nó là CSS framework nó sẽ được build với những class riêng có nghĩa là mỗi class sẽ thực hiện 1 chức năng riêng biệt
+- Câu lệnh cài:
++ npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
++ npm install @craco/craco
++ Mở file package.json tìm đến chỗ script dán 3 dòng này vào
+"start": "craco start",
+"build": "craco build",
+"test": "craco test",
++ Tạo 1 file craco.config.js và paste 
+// craco.config.js
+module.exports = {
+  style: {
+    postcss: {
+      plugins: [
+        require('tailwindcss'),
+        require('autoprefixer'),
+      ],
+    },
+  },
+}
++ Tắt terminal cũ 
++ New terminal mới 
++ cd my-app
++ npx tailwindcss-cli@latest init
+Bài 52.1: Cập nhật CRA và TailwindCSS version 3(quan trọng)
+Bài 52.2: Hướng dẫn sửa lỗi TailwindCSS không tạo ra class
+Bài 53: Sử dụng tailwindcss phần 1
+Bài 54: Cài đặt jitmode trong tailwindcss
+Bài 55: Sử dụng tailwindcss phần 2
+Bài 56: Xử lý props trong tailwindcss như thế nào
+Bài 57: Recap chương 4

@@ -1,0 +1,54 @@
+Bài 1: Giới thiệu chương 2
+Bài 2: ReactJS là gì ?
+Bài 3: Tìm hiểu Create React App
+- Toolchain: create-react-app
+-> Code được nhiều file, tối ưu khi build, bắt lỗi, mỗi lần code thì tự động reload lại, tối ưu khi sử dụng thư viện bên thứ 3
+Bài 4: Cài đặt CRA
+- Bước 1: npx create-react-app my-app
+- Bước 2: cd tên thư mục
+- Bước 3: npm start
+Bài 5: JSX là gì ?
+- JSX(Javascript XML): là cú pháp mở rộng của HTML dựa vào ES6
+- Khi viết HTML trong React thì được gọi là JSX
+- Khi viết HTML trong React thì nó sẽ convert những thẻ html sang dưới dạng react element
+- Khi sử dụng JSX để viết HTML thì nó sẽ render ra ngoài DOM
+Bài 6: Tìm hiểu JSX phần 1
+- Babel: giúp chuyển những code chúng ta sang ES5 hỗ trợ những trình duyệt cũ
+- Ví dụ:
+/*
+ * element = <div id="root">Hello World</div>: JSX
+ * element = React.createElement('div', {id: 'root'}, 'Hello World')
+ * function createElement(elementType, props, ...children)
+ * elementType: 'div', 'p',' span', ...
+ * props: className, id, src, alt,...
+ * ...children: Những phần tử nằm ở giữa
+ * element2 = (<div>
+ * <span>Hello</span> <span>World</span>
+ * </div>)
+ * element2 = React.createElement('div', {
+ * children: [
+ * React.createElement('span', null, 'Hello'),
+ * ' ',
+ * React.createElement('span', null, 'World')
+ * ]
+ * })
+*/
+Bài 7: Tìm hiểu JSX phần 2
+- Khi viết JSX thì nó phải có ít nhất 1 phần tử cha
+- Sử dụng biến trong JSX thì dùng dấu curly braces: {}
+Bài 8: Tìm hiểu JSX phần cuối
+Bài 9: Components là gì ?
+- Cho phép chia nhỏ UI ra dưới dạng nhiều thành phần khác nhau để tái sử dụng
+- Chữ cái đầu phải ghi hoa
+Bài 10: Props là gì ?
+- Props(Properties): là những cái chúng ta sẽ truyền vào component đó và nó là khác nhau
+Bài 11: Thực hành với Props cơ bản
+Bài 12: Tìm hiểu 2 cách styles cơ bản trong React
+Bài 13: Rendering List phần 1
+Bài 14: Rendering List phần 2
+Bài 15: Rendering List phần 3
+Bài 16: Refactor code
+Bài 17: Tìm hiểu props children
+- props.children là những thứ nằm ở giữa
+- children: html, component, text, variable
+Bài 18: Recap chương 2

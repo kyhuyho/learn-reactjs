@@ -1,0 +1,31 @@
+Bài 58: Giới thiệu chương 5
+- useEffect là 1 hook thường được dùng để xử lý những vấn đề liên quan đến việc side-effects: xử lý bên trong func nhưng nó lại ảnh hưởng
+đến bên ngoài
+Bài 59: Cách dùng useEffect cơ bản
+- useEffect(callback, [dependencies])
+Bài 60: Thực hành với API Picsum photos sử dụng useEffect phần 1
+- Câu lệnh cài đặt API
++ cd my-app
++ npm install axios
+Bài 61: Thực hành với API Picsum photos sử dụng useEffect phần 2
+Bài 62: Thực hành với API Picsum photos sử dụng useEffect phần 3
+Bài 63: Thực hành với API Picsum photos sử dụng useEffect phần 4
+Bài 64: Thực hành với API Picsum photos sử dụng useEffect phần 5
+Bài 65: Refactor code sang async function
+Bài 66: Tìm hiểu dependency trong useEffect phần 1
+- Nếu ko truyền dependency vào trong useEffect thì khi mỗi lần components re-render lại thì nó sẽ chạy vào useEffect
+Bài 67: Tìm hiểu dependency trong useEffect phần 2
+Bài 68: Tìm hiểu dependency trong useEffect phần 3
+Bài 69: Tìm hiểu cleanup function trong useEffect
+Bài 70: Sử dụng event listener trong useEffect như thế nào ?
+Bài 71: Tối ưu bài tập API Picsum Photos
+Bài 72: Bài tập HackerNews API phần 1
+Bài 73: Bài tập HackerNews API phần 2
+Bài 74: Bài tập HackerNews API phần 3
+Bài 75: Bài tập HackerNews API phần 4
+Bài 76: Tối ưu giao diện HackerNews API
+Bài 77: Bài tập HackerNews API - Fetching dữ liệu với button
+Bài 78: Bài tập HackerNews API - Sử dụng useReducer phần 1
+Bài 79: Bài tập HackerNews API - Sử dụng useReducer phần 2 
+Bài 80: Bài tập HackerNews API - Sử dụng useReducer phần cuối
+Bài 81: Recap chương 5

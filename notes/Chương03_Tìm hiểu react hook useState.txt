@@ -1,0 +1,49 @@
+Bài 19: Giới thiệu chương 3
+Bài 20: State là gì ?
+- State là thông tin được lưu bên trong component đó và component đó có thể tùy chỉnh những State đó
+- Sử dụng State bên trong functional component
+- Để sử dụng State thì dùng 1 cái hook có tên là useState
+Bài 21: stateless và stateful functional components
+- React hook là tính năng mới trong React cho phép chúng ta sử dụng State và những tính năng khác của React mà ko cần sử dụng class	
+- Stateless funtional component: nó là funtional component nhưng ko sử dụng State
+- Stateful functional component: nó là funtional component nhưng sử dụng State ở bên trong
+Bài 22: Tìm hiểu useState cơ bản phần 1
+- Khi sử dụng thì có 4 bước
++ enabling state: useState(initialize value) -> sử dụng nó, bật nó lên như thế nào
++ initialize state: useState(false) -> giá trị khởi tạo
+-> initialize value: boolean(true, false), number(1,2,3,4), string("tom"), undefined, null, [1,2,3,4], {title: "Frontend Developer"}
++ reading state
++ update state
+Bài 23: Tìm hiểu useState cơ bản phần 2
+- Khi State trong component thay đổi thì component nó sẽ re-render lại để cập nhật DOM ra bên ngoài
+Bài 24: Tìm hiểu useState cơ bản phần 3
+Bài 25: Tìm hiểu useState cơ bản phần 4
+- Khi muốn thay đổi State mà cái State đó phụ thuộc vào giá trị trước đó của nó thì hàm update State chúng ta truyền vào 1 callback
+Bài 26: Những nguyên tắc khi sử dụng hook cần nắm
+- Sử dụng ở trong functional component và sử dụng ở trên cùng
+- Ko đc viết trong vòng lặp, ko đc viết trong câu điều kiện, ko dc viết trong function
+Bài 27: Stale state là gì ?
+- Khi truy suất 1 biến nằm ngoài scope của nó thì hiện tượng Stale state xuất hiện
+- Để khắc phục thì dùng dùng callback ở hàm update State
+Bài 28: Thực hành game Tictactoe phần 1
+Bài 29: Thực hành game Tictactoe phần 2
+Bài 30: Thực hành game Tictactoe phần 3
+Bài 31: Thực hành game Tictactoe phần 4
+Bài 32: Thực hành game Tictactoe phần 5
+Bài 33: Xử lý state phức tạp như thế nào ?
+Bài 34: Tìm hiểu useReducer phần 1
+- const [state, dispatch] = useReducer(reducer, initialState)
+- const action = {type: 'CLICK', payload: {}}
+- initialState: những giá trị State
+- action là 1 object
++ type: truyền vào để sử dụng reducer function
++ payload {}: là data truyền vào
+- dispatch: là 1 function chấp nhận đầu vào là action
+Bài 35: Tìm hiểu useReducer phần 2
+Bài 36: Tìm hiểu useReducer phần 3
+- deep copy JSON.parse(JSON.stringify(obj)): clone 
+- Sử dụng useState cho những state đơn giản
+- Sử dụng useReducer cho những state có dạng object phức tạp, hoặc là 1 mảng phức tạp
+- Khi sử dụng useReducer thì những cái state phải liên quan với nhau
+Bài 37: React cập nhật state như thế nào ?
+Bài 38: Recap chương 3
